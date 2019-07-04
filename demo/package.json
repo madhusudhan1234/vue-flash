@@ -3,7 +3,9 @@
   "scripts": {
     "dev": "webpack",
     "web-production": "set NODE_ENV=production&&webpack",
-    "watch": "npm run dev -- --watch"
+    "watch": "npm run dev -- --watch",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
@@ -20,6 +22,8 @@
   },
   "dependencies": {
     "vue-template-compiler": "^2.5.13",
-    "vue2-flash": "^1.0.1"
-  }
+    "vue2-flash": "^1.0.1",
+    "snyk": "^1.189.0"
+  },
+  "snyk": true
 }
