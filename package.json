@@ -46,7 +46,7 @@
     "webpack": "^3.8.1"
   },
   "dependencies": {
-    "sinon": "^4.1.4",
+    "sinon": "^16.1.2",
     "vue-template-compiler": "^2.5.13",
     "webpack-merge": "^4.1.1"
   }
